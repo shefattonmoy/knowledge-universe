@@ -1,0 +1,22 @@
+.singleBlog {
+    width: 870px;
+    height: 580px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.singleBlog img {
+    width: 850px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.singleBlog-title {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%;
+    color: #111111;
+}

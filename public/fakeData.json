@@ -1,0 +1,296 @@
+[
+  {
+    "_id": "6426afb2df5bb8cdab997442",
+    "index": 0,
+    "guid": "089deb93-523c-4d79-8b46-6e5ebb125dbb",
+    "isActive": true,
+    "balance": "$3,470.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "eyeColor": "brown",
+    "name": "Nolan Salazar",
+    "gender": "male",
+    "company": "FIBRODYNE",
+    "email": "nolansalazar@fibrodyne.com",
+    "phone": "+1 (852) 470-3350",
+    "address": "530 Village Court, Hillsboro, Massachusetts, 1738",
+    "about": "Amet in fugiat consectetur laborum sint. Enim mollit adipisicing ex cupidatat fugiat adipisicing non esse nisi commodo laboris commodo ad. Qui amet quis ullamco adipisicing duis irure est aute commodo labore ullamco. Sunt enim est in ullamco aute laborum qui consectetur incididunt ex adipisicing id. Tempor dolore do incididunt duis eu sit est aliqua id amet mollit laborum eiusmod. Elit elit sunt ipsum ullamco duis ut. Proident Lorem aliqua nostrud qui cillum fugiat.\r\n",
+    "registered": "2015-01-01T10:11:34 -06:00",
+    "img": "https://images.unsplash.com/photo-1542903660-eedba2cda473?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "How to get your first job as a self-taught programmer",
+    "estimatedTime": "05 min read",
+    "latitude": -8.026906,
+    "longitude": -112.484064,
+    "tags": [
+      "dolor",
+      "veniam",
+      "duis",
+      "enim",
+      "anim",
+      "proident",
+      "ut"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alta Flowers"
+      },
+      {
+        "id": 1,
+        "name": "Sandra Barlow"
+      },
+      {
+        "id": 2,
+        "name": "Evangeline Stanton"
+      }
+    ],
+    "greeting": "Hello, Nolan Salazar! You have 4 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "6426afb2a05ff9799c97f16d",
+    "index": 1,
+    "guid": "4356b972-b686-4f8f-afc4-fdb656538832",
+    "isActive": false,
+    "balance": "$3,673.15",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "brown",
+    "name": "Patterson Grant",
+    "gender": "male",
+    "company": "BOLAX",
+    "email": "pattersongrant@bolax.com",
+    "phone": "+1 (952) 409-2359",
+    "address": "163 Brown Street, Herbster, Wisconsin, 4677",
+    "about": "Sint eiusmod nisi aliquip minim consequat aliquip ipsum do minim pariatur. Non deserunt incididunt veniam est cupidatat non ut ut do minim. Et dolore esse ipsum et ex do exercitation in occaecat aute. Magna non consequat eu fugiat veniam aute officia Lorem voluptate consequat ea minim anim qui. Deserunt anim amet id ea. Duis labore elit dolore ea cupidatat eu nulla. Magna nostrud tempor cillum minim amet aute elit.\r\n",
+    "registered": "2020-03-15T01:37:31 -06:00",
+    "img": "https://plus.unsplash.com/premium_photo-1677269465314-d5d2247a0b0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "Google has launched a new chatbot named 'Bard'",
+    "estimatedTime": "10 min read",
+    "latitude": -9.873264,
+    "longitude": -1.116759,
+    "tags": [
+      "anim",
+      "nulla",
+      "anim",
+      "id",
+      "nulla",
+      "ut",
+      "ullamco"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Dianna Hinton"
+      },
+      {
+        "id": 1,
+        "name": "Cara Logan"
+      },
+      {
+        "id": 2,
+        "name": "Cantu Nieves"
+      }
+    ],
+    "greeting": "Hello, Patterson Grant! You have 5 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "6426afb24cc1a005687ba249",
+    "index": 2,
+    "guid": "1cf75cf5-36e0-4a9e-9597-2e90647038bb",
+    "isActive": true,
+    "balance": "$2,299.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "green",
+    "name": "Mcfarland Ford",
+    "gender": "male",
+    "company": "ZOARERE",
+    "email": "mcfarlandford@zoarere.com",
+    "phone": "+1 (984) 539-3197",
+    "address": "432 Maujer Street, Murillo, Hawaii, 1910",
+    "about": "Ad aliqua elit et nostrud fugiat. Lorem nisi qui nostrud deserunt culpa est eiusmod veniam eiusmod adipisicing duis veniam id. Cupidatat proident voluptate duis sunt qui Lorem sunt aliquip elit ipsum est. Ut elit culpa qui mollit laboris sint labore fugiat non excepteur culpa est duis quis.\r\n",
+    "img": "https://images.unsplash.com/photo-1583440194369-ac78b451536a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGhhY2tlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "North Korean hacking group Lazarus has stolen $100 million from their recent cyber attack in United States",
+    "estimatedTime": "10 min read",
+    "registered": "2021-10-17T07:26:15 -06:00",
+    "latitude": -77.008044,
+    "longitude": 159.905243,
+    "tags": [
+      "ipsum",
+      "ut",
+      "officia",
+      "mollit",
+      "proident",
+      "non",
+      "esse"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Wilkins Farrell"
+      },
+      {
+        "id": 1,
+        "name": "Judith Sampson"
+      },
+      {
+        "id": 2,
+        "name": "Lou Edwards"
+      }
+    ],
+    "greeting": "Hello, Mcfarland Ford! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "6426afb266ef06c0c9151cd7",
+    "index": 3,
+    "guid": "727ae558-8b39-498f-84d4-cd3bc1a63b26",
+    "isActive": true,
+    "balance": "$2,514.04",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "blue",
+    "name": "Bradshaw Wood",
+    "gender": "male",
+    "company": "ASIMILINE",
+    "email": "bradshawwood@asimiline.com",
+    "phone": "+1 (990) 539-3840",
+    "address": "668 Durland Place, National, Oregon, 618",
+    "about": "Irure cillum sint officia est do id minim sit nostrud eiusmod anim aliquip non enim. Voluptate sunt minim magna eiusmod fugiat elit anim excepteur. Aliqua proident culpa et tempor velit voluptate nostrud nisi.\r\n",
+    "img": "https://images.unsplash.com/photo-1517976487492-5750f3195933?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cm9ja2V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "SpaceX will launch new spacecraft very soon for another Mars mission",
+    "estimatedTime":"05 min read",
+    "registered": "2016-09-05T04:33:36 -06:00",
+    "latitude": 36.198821,
+    "longitude": -7.411716,
+    "tags": [
+      "id",
+      "ea",
+      "cupidatat",
+      "ullamco",
+      "velit",
+      "sit",
+      "quis"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mcknight Crane"
+      },
+      {
+        "id": 1,
+        "name": "Isabel Roach"
+      },
+      {
+        "id": 2,
+        "name": "Ramirez Mcdonald"
+      }
+    ],
+    "greeting": "Hello, Bradshaw Wood! You have 3 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "6426afb2a4574d07bb227864",
+    "index": 4,
+    "guid": "e3890886-f959-4021-a3cf-250f20c2e854",
+    "isActive": false,
+    "balance": "$3,150.61",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "brown",
+    "name": "Annabelle Lyons",
+    "gender": "female",
+    "company": "ZAPHIRE",
+    "email": "annabellelyons@zaphire.com",
+    "phone": "+1 (985) 540-2796",
+    "address": "892 Hanson Place, Boomer, Palau, 5928",
+    "about": "Do reprehenderit sit quis veniam laborum ex dolor aute tempor incididunt id qui cupidatat. Incididunt cillum nulla aute ut sunt aute qui incididunt veniam duis. Sunt ipsum officia duis magna exercitation culpa ipsum laborum nulla est esse elit ea. Est deserunt nulla incididunt aliquip Lorem. Non minim voluptate excepteur adipisicing velit minim exercitation eiusmod. Consequat aliquip esse et Lorem cillum ut excepteur sunt quis fugiat tempor aliquip eu incididunt.\r\n",
+    "img": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjYm9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "Apple will launch their new Macbook soon with M2 chip",
+    "estimatedTime": "07 min read",
+    "registered": "2022-03-30T04:26:34 -06:00",
+    "latitude": -86.168554,
+    "longitude": -10.407074,
+    "tags": [
+      "proident",
+      "sit",
+      "aliquip",
+      "consequat",
+      "aliqua",
+      "esse",
+      "sunt"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "King Conway"
+      },
+      {
+        "id": 1,
+        "name": "Letitia Beck"
+      },
+      {
+        "id": 2,
+        "name": "Summer Kirby"
+      }
+    ],
+    "greeting": "Hello, Annabelle Lyons! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "6426afb2a9756d7197fd48c1",
+    "index": 5,
+    "guid": "5d2829f2-8963-41b4-a641-7eb4e6266320",
+    "isActive": true,
+    "balance": "$3,438.22",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Jayne Carroll",
+    "gender": "female",
+    "company": "XIXAN",
+    "email": "jaynecarroll@xixan.com",
+    "phone": "+1 (822) 577-3660",
+    "address": "979 Ovington Avenue, Carbonville, Oklahoma, 5694",
+    "about": "Velit labore irure laboris adipisicing dolore aliqua occaecat. Nisi minim laborum in irure laborum magna anim tempor Lorem dolor ea elit eiusmod. Dolor consequat ut elit aliqua cillum aute minim nostrud incididunt incididunt consequat aliquip sunt reprehenderit. Consectetur irure commodo occaecat fugiat dolor proident. Eiusmod et consequat est eu irure laborum duis. Culpa qui sint pariatur nulla ipsum do est minim sint eu fugiat.\r\n",
+    "img": "https://images.unsplash.com/photo-1540829917886-91ab031b1764?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvY2Vzc29yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "authorImg": "../src/images/shefat_circle_image.png",
+    "title": "Intel is planning to launch corei-11 processors in the mid of 2025",
+    "estimatedTime":"10 min read",
+    "registered": "2015-02-26T10:59:29 -06:00",
+    "latitude": 5.158121,
+    "longitude": -115.867066,
+    "tags": [
+      "Lorem",
+      "sunt",
+      "sint",
+      "laboris",
+      "dolore",
+      "esse",
+      "et"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bean Allison"
+      },
+      {
+        "id": 1,
+        "name": "Kristine Humphrey"
+      },
+      {
+        "id": 2,
+        "name": "Aida Michael"
+      }
+    ],
+    "greeting": "Hello, Jayne Carroll! You have 8 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

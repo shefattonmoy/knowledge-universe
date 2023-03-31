@@ -1,0 +1,33 @@
+.header {
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav.header a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+nav.header a:hover {
+    color: purple;
+    font-size: 25px;
+}
+
+.nav-image {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+
+.nav-image:hover {
+    height: 55px;
+    width: 55px;
+}

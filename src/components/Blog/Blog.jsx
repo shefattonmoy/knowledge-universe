@@ -3,6 +3,7 @@ import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blog.css';
 import Bookmark from '../Bookmark/Bookmark';
 import { addToDb, getBookmark } from '../../utilities/fakedb';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Blog = () => {
     const [blogs, setBlogs] = useState([]);
@@ -24,6 +25,9 @@ const Blog = () => {
                 addedBookmark.quantity = quantity;
                 savedBookmark.push(addedBookmark);
             }
+            else if(addedBookmark > 1){
+                handleToastify();
+            }  
         }
         setBookmark(savedBookmark);
     }, [blogs])
@@ -32,6 +36,10 @@ const Blog = () => {
         const newBookmark = [...bookmark, singleBlog];
         setBookmark(newBookmark);
         addToDb(singleBlog._id)
+    }
+
+    const handleToastify = () => {
+        toast("Already added!");
     }
 
     return (

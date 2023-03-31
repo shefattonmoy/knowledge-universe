@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+
+<body>
+    <h2>01. What are the differences between props and state?</h2>
+    <p>In the context of React, props and state are both used to manage data and render components. However, they serve
+        different purposes and have some important differences:
+    <ol>
+        <li>Props (short for "properties") are passed down from a parent component to a child component. They are
+            immutable, meaning they cannot be changed within the component that receives them. Props are used to
+            customize a component based on its parent's needs.</li>
+        <li>State is internal to a component and can be changed within that component using the setState() method. State
+            is used to manage data that can change over time, such as user input or the result of an API call. Changes
+            to state trigger the component to re-render.</li>
+    </ol>
+    <br>
+    Here are some other key differences between props and state:
+    <ul>
+        <li>Scope</li>
+        <li>Mutability</li>
+        <li>Initialization</li>
+        <li>Usage</li>
+    </ul>
+    </p>
+    <br><br>
+    <h2>02. How does useState() work?</h2>
+    <p>useState() is a built-in hook in React that allows a functional component to have state. It works by returning an array containing two elements:
+        <ol>
+            <li>The first element is the current state value.</li>
+            <li>The second element is a function to update the state value.</li>
+        </ol>
+        <p>When the component is first rendered, useState() is called with an initial state value. The hook returns the initial state value as the first element of the array, and the function to update the state value as the second element of the array.
+
+            The component can use the current state value to render its UI, and can update the state value by calling the function returned by useState(). When the state is updated, React will re-render the component with the new state value, allowing the component to update its UI in response to changes in state.
+            
+            This allows functional components to manage state, which was previously only possible with class components. The ability to manage state in functional components makes it easier to write and maintain React code.</p>
+    </p>
+    <br><br>
+    <h2>03. What does useEffect() do besides data loading?</h2>
+    <p>useEffect() is a built-in hook in React that allows functional components to perform side effects. A side effect is any operation that affects something outside of the component, such as manipulating the DOM, setting up timers, or subscribing to a WebSocket.</p>
+    <br>
+    <p>Here are some examples of what useEffect() can do besides data loading:
+        <li>Updating the document title</li>
+        <li>Adding event listeners</li>
+        <li>Managing animations</li>
+        <li>Performing cleanup</li>
+    </p>
+    <br>
+    <h2>04. How does React work?</h2>
+    <p>React is a JavaScript library for building user interfaces. It works by allowing developers to create reusable UI components that can be composed together to create complex user interfaces. <br><br>
+
+        At its core, React uses a virtual DOM (Document Object Model) to efficiently update the user interface. When a user interacts with the UI, React updates the virtual DOM, calculates the difference between the previous and new versions of the virtual DOM, and then applies only the necessary changes to the actual DOM. This process is called reconciliation and it helps to reduce the number of DOM manipulations, which can be a performance bottleneck. <br><br>
+        
+        React also uses a unidirectional data flow, where data flows in one direction from parent components to child components. This makes it easy to reason about the state of the application and helps to prevent bugs and errors. <br><br>
+        
+        React can be used with other libraries and frameworks, such as Redux for state management, React Router for routing, and Axios for making HTTP requests. Additionally, React has a large and active community of developers who contribute to open source packages and provide support through forums and documentation.</p>
+</body>
+</html>

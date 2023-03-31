@@ -5,7 +5,8 @@ import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header'
 import Blog from './components/Blog/Blog';
-import SingleBlog from './components/SingleBlog/SingleBlog';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Header></Header>
       <Blog></Blog>
+      <ToastContainer></ToastContainer>
     </div>
   )
 }

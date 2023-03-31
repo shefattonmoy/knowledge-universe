@@ -9,18 +9,20 @@ const SingleBlog = (props) => {
     return (
         <div className='singleBlog'>
             <img src={img} alt="" />
-            <div className='d-flex justify-content-between fs-6 fw-semibold'>
-                <div className='singleBlog-info-child-1'>
+            <div className='d-flex justify-content-between fw-semibold'>
+                <div className='singleBlog-info-child-1 d-flex'>
                     <img src={authorImg} alt="" />
-                    <p>{name}</p>
+                   <div className='nameinfo'>
+                   <p className='fs-5'>{name}</p>
                     <p className='text-secondary'>March 14, 2023</p>
+                   </div>
                 </div>
                 <div className='d-flex gap-2'>
                     <div>
-                        <p className='text-secondary'>{estimatedTime}</p>
+                        <p className='text-secondary time'>{estimatedTime}</p>
                     </div>
                     <div>
-                        <button className='btn btn-light'><FontAwesomeIcon icon={faBookmark} /></button>
+                        <button className='btn btn-light time'><FontAwesomeIcon icon={faBookmark} /></button>
                     </div>
                 </div>
             </div>

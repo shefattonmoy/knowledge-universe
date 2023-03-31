@@ -21,7 +21,7 @@ const Blog = () => {
                 }
             </div>
             <div className="bookmarks">
-                <h4>Bookmarks</h4>
+                <h4>Bookmarked Blogs: {}</h4>
             </div>
         </div>
     );

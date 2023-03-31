@@ -7,7 +7,6 @@ import './SingleBlog.css';
 const SingleBlog = (props) => {
     const { img, name, title, estimatedTime, authorImg} = props.singleBlog;
     const handleBookmark = props.handleBookmark;
-    const handleWatchTime = props.handleWatchTime;
     return (
         <div className='singleBlog'>
             <img src={img} alt="" />
@@ -30,7 +29,7 @@ const SingleBlog = (props) => {
             </div>
             <div className='singleBlog-info-child-2'>
                 <h4 className='singleBlog-title'>{title}</h4>
-                <button onClick={ () => handleWatchTime(props.singleBlog)}>Mark as read</button>
+                <button>Mark as read</button>
             </div>
         </div>
     );

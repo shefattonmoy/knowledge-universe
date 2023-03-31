@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blog.css';
 import Bookmark from '../Bookmark/Bookmark';
+import { addToDb, getBookmark } from '../../utilities/fakedb';
 
 const Blog = () => {
     const [blogs, setBlogs] = useState([]);
     const [bookmark, setBookmark] = useState([]);
-    const [watchTime, setWatchTime] = useState([]);
 
     useEffect(() => {
         fetch('fakeData.json')
@@ -14,14 +14,24 @@ const Blog = () => {
             .then(data => setBlogs(data))
     }, [])
 
+    useEffect( () => {
+        const storedBookmark = getBookmark();
+        const savedBookmark = [];
+        for(const _id in storedBookmark){
+            const addedBookmark = blogs.find(blog => blog._id === _id)
+            if(addedBookmark){
+                const quantity = storedBookmark[_id];
+                addedBookmark.quantity = quantity;
+                savedBookmark.push(addedBookmark);
+            }
+        }
+        setBookmark(savedBookmark);
+    }, [blogs])
+
     const handleBookmark = (singleBlog) => {
         const newBookmark = [...bookmark, singleBlog];
         setBookmark(newBookmark);
-    }
-
-    const handleWatchTime = (singleBlog) => {
-        const newWatchTime = [...watchTime, singleBlog];
-        setWatchTime(newWatchTime);
+        addToDb(singleBlog._id)
     }
 
     return (
@@ -32,7 +42,6 @@ const Blog = () => {
                         key={singleBlog._id}
                         singleBlog={singleBlog}
                         handleBookmark={handleBookmark}
-                        handleWatchTime = {handleWatchTime}
                     ></SingleBlog>)
                 }
             </div>

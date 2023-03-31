@@ -1,6 +1,6 @@
 .singleBlog {
     width: 870px;
-    height: 580px;
+    height: 720px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
 }
@@ -13,10 +13,26 @@
 }
 
 .singleBlog-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
     font-family: 'Exo 2';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 160%;
     color: #111111;
+}
+
+.singleBlog-info-child-1 {
+    margin-left: 12px;
+}
+
+.singleBlog-info-child-1 img {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+}
+
+.singleBlog-info-child-2 {
+    margin-left: 12px;
 }

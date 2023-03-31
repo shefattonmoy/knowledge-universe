@@ -5,8 +5,10 @@ import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header'
 import Blog from './components/Blog/Blog';
+import SingleBlog from './components/SingleBlog/SingleBlog';
 
 function App() {
+  
   const [count, setCount] = useState(0)
 
   return (

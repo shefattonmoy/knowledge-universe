@@ -5,7 +5,9 @@ import './SingleBlog.css';
 
 
 const SingleBlog = (props) => {
-    const { img, name, title, estimatedTime, authorImg } = props.singleBlog
+    const { img, name, title, estimatedTime, authorImg} = props.singleBlog;
+    const handleBookmark = props.handleBookmark;
+    const handleWatchTime = props.handleWatchTime;
     return (
         <div className='singleBlog'>
             <img src={img} alt="" />
@@ -22,13 +24,13 @@ const SingleBlog = (props) => {
                         <p className='text-secondary time'>{estimatedTime}</p>
                     </div>
                     <div>
-                        <button className='btn btn-light time'><FontAwesomeIcon icon={faBookmark} /></button>
+                        <button onClick={ () => handleBookmark(props.singleBlog)} className='btn btn-light time'><FontAwesomeIcon icon={faBookmark} /></button>
                     </div>
                 </div>
             </div>
             <div className='singleBlog-info-child-2'>
                 <h4 className='singleBlog-title'>{title}</h4>
-                <a href="">Mark as read</a>
+                <button onClick={ () => handleWatchTime(props.singleBlog)}>Mark as read</button>
             </div>
         </div>
     );

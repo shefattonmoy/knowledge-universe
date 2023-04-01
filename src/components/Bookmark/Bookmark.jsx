@@ -3,6 +3,7 @@ import './Bookmark.css';
 
 const Bookmark = (props) => {
     const { bookmark } = props;
+    
 
     let quantity = 0;
 

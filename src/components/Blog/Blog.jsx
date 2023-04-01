@@ -15,19 +15,16 @@ const Blog = () => {
             .then(data => setBlogs(data))
     }, [])
 
-    useEffect( () => {
+    useEffect(() => {
         const storedBookmark = getBookmark();
         const savedBookmark = [];
-        for(const _id in storedBookmark){
+        for (const _id in storedBookmark) {
             const addedBookmark = blogs.find(blog => blog._id === _id)
-            if(addedBookmark){
+            if (addedBookmark) {
                 const quantity = storedBookmark[_id];
                 addedBookmark.quantity = quantity;
                 savedBookmark.push(addedBookmark);
             }
-            else if(addedBookmark > 1){
-                handleToastify();
-            }  
         }
         setBookmark(savedBookmark);
     }, [blogs])

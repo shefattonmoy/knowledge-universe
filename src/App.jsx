@@ -9,6 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Cart from './components/Cart/Cart';
 import SingleBlog from './components/SingleBlog/SingleBlog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ function App() {
       <Blog></Blog>
       <Cart></Cart>
       <ToastContainer></ToastContainer>
+      <Footer></Footer>
     </div>
   )
 }
